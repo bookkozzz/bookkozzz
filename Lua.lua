@@ -838,7 +838,7 @@ getgenv().client = {}; do
                 client.uiscaler = v
             end
             if rawget(v, 'player') then
-                print("Got animation")
+                print("[Lunaa Client (F9) Notify] Loaded All Players <3")
                 table.insert(animations, v)
             end
         end
